@@ -7,7 +7,7 @@ bufferSize = 2048
 server_address_and_port = (gethostname(), serverPort) #tuple or pair
 serverSocket.bind(server_address_and_port)
 serverSocket.listen(1) # TCP has listen()
-print'the web server is on port:', serverPort
+print 'the web server is on port:', serverPort
 #Fill in end
 while True:
 #Establish the connection
